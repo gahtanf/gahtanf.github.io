@@ -1,0 +1,42 @@
+.container{
+    width: 1024px;
+    position: relative;
+    display: block;
+    background-color: transparent;
+    margin: 0 auto;
+}
+.container .card{
+    display: inline-block;
+    background-color: #404142;
+    width: 45%;
+    position: relative;
+    margin: 10px 24px; 
+    border-radius: 10px;
+
+}
+.card:nth-last-child()
+.card h5{
+    text-align: center;
+    margin: 20px 10px;
+    height: 100px;
+}
+.img-box{
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 200px;
+    background-color: #111;
+    overflow: hidden;
+}
+.img-box img{
+    max-width: 100%;
+    min-height: 100%;
+}
+.img-box .tgl{
+    position: absolute;
+    left: 350px;
+    top: 25px;
+    z-index: 999;
+    font-weight: bolder;
+    
+}

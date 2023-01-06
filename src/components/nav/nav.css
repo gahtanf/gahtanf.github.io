@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    padding-top: 5px;
+    border: 3px solid rgb(7, 7, 7);
+    padding: 5px 0;
+    justify-content: space-between;
+    background: #404142;
+}
+
+.nav-link, .socmed {
+    display: flex;
+    list-style: none;
+    margin: 0 15px;
+    color: #000;
+}
+
+.nav-link
+
+.drop{
+    position: absolute;
+    margin-left: 0px;
+    display: none;
+    color: black;
+
+}
+
+li:hover .drop{
+    display: block;
+}
+
+.socmed {
+    display: flex;
+}
+.search-box input{
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 17px;
+    background: #f5f6fa;
+    border: 2px solid #dddede;
+    outline: none;
+    }
+
+.search-box .la-search{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 35px;
+    width: 45px;
+    background: #ffffff;
+    border-radius: 6px;
+    color: rgb(10, 10, 10);
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    }
+.search-box{
+    height: 50px;
+    width: 500px;
+    margin-right: 50;
+    position: relative;
+    margin-right: 150px;
+    }

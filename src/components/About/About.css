@@ -1,0 +1,124 @@
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    }
+    
+    p{
+    font-family: verdana;
+    font-size: 20px;
+    padding-left: 10px;
+    }
+    .table{
+    width: 40%;
+    margin-left: 2px;
+    }
+    table,td,th{
+        border: 1px solid rgb(0, 0, 0);
+        border-collapse: collapse;
+    }
+    th,td{
+        color: rgb(0, 0, 0);
+        padding: 8px 8px 8px 8px;
+    }
+    th{
+        background-color: #404142;
+    }
+    #table-judul{
+        width: 100%;
+    }
+    th{
+        height: 20px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    ul.list-hobi{
+        list-style-type: none;
+    }
+    section img{
+        display: block;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    section{
+        margin: 40px 0 40px 20px;
+        
+    }
+    .bar{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li a{
+        display: block;
+        color: rgb(3, 3, 3);
+        text-decoration: none;
+        background-color: #404142;
+        min-width: 130px;
+        z-index: 1;
+    }
+    li a:hover{
+        color: rgb(195, 195, 196);
+    }
+    tr,th,td{
+        padding: 10px 12px 10px 10px;
+    }
+    /*untuk garis genap*/
+    tr:nth-child(even){
+        background-color: rgb(110, 110, 110);
+    }
+    tr:hover{
+        background-color: rgb(195, 195, 196);
+    }
+    .tentang{
+        width: 40%;
+        padding: 15px 20px;
+        margin: 8px 0;
+        background-color: #404142 ;
+        color: rgb(0, 0, 0);
+        margin-left: 2px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+    .serti{
+        display: block;
+        margin: auto;
+        width: 260px;
+        height: 200px;
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 0%;
+    }
+    .skill-box .title{
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        color: #333;
+    }
+    .skill-box .skill-bar{
+        height: 8px;
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 6px;
+        background: rgba(71, 69, 69, 0.1);
+    }
+    .skill-bar .skill-per{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 0%;
+        border-radius: 6px;
+        background: #0044ff;
+    }
+    .skill-per.html{
+        width: 70%;
+    }
+    .skill-per.css{
+        width: 80%;
+    }
+    .skill-per.java{
+        width: 40%;
+    }
